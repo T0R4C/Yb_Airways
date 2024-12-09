@@ -1,0 +1,53 @@
+body {
+    width: 1200px;
+    height: 620px;
+    display: grid;
+    background-color: rgb(37, 60, 73);
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    margin-left: 5%;
+    margin-top: 20px;
+    background-color: rgb(230, 230, 230);
+    width: 800px;
+    padding: 5px 10px;
+    height: max-content;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 3px 5px;
+}
+
+input[type='text'],
+.opsi {
+    margin: 15px 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.button {
+    text-align: right;
+    width: 800px;
+    margin: 15px 0;
+}
+
+.btn-cancel{
+    background-color: brown;
+    color: white;
+    margin: 0 20px;
+    width: 100px ;
+    height: 30px;
+}
+
+.btn-create {
+    background-color: rgb(21, 66, 109);
+    color: white;
+    margin: 0 20px;
+    width: 100px ;
+    height: 30px;
+}
+
+
